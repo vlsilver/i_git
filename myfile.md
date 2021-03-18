@@ -1,11 +1,5 @@
 # Learn Git Bash with niBVL
 ## Getting Started
-
-
-Merge branch:
-
-    git merge <branch name>
-
 Create file:
 
     mkdir <file name>
@@ -38,3 +32,7 @@ Switch branch:
 Create and switch branch:
 
     git checkout -b <branch name>
+
+Merge branch:
+
+    git merge <branch name>

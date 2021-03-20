@@ -33,6 +33,11 @@ Create and switch branch:
 
     git checkout -b <branch name>
 
+Delete branch:
+
+    git branch -d <branch name>
+    git branch -D <branch name>
+
 Merge branch:
 
     git merge <branch name>

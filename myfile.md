@@ -42,6 +42,6 @@ Merge branch branchname -> current branch:
 
     git merge <branch name>
 
-Merge branch rebase:
+Merge branch rebase currentbranch -> branchname:
 
     git rebase <branch name>

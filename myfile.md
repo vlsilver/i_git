@@ -41,3 +41,7 @@ Delete branch:
 Merge branch branchname -> current branch:
 
     git merge <branch name>
+
+Merge branch rebase:
+
+    git rebase <branch name>

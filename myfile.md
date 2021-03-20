@@ -38,6 +38,6 @@ Delete branch:
     git branch -d <branch name>
     git branch -D <branch name>
 
-Merge branch:
+Merge branch branchname -> current branch:
 
     git merge <branch name>

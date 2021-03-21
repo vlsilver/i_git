@@ -56,6 +56,7 @@ Merge branch rebase currentbranch -> branchname:
 
     git rebase <branch name>
 
+<<<<<<< HEAD
 Pull all commit of current branch from repository(merge):
 
     git pull
@@ -70,9 +71,18 @@ Push commit from local to repository:
 
 
 Add tag for current commit:
+=======
+Add tag type "lightweight" for current commit:
+>>>>>>> 491e23f (learn tag annotated)
 
     git tag <tag name>
+
+Add tag type "annotated" for current commit:
+
+    git tag -a <tagname>
+    git tag -am "<message>" <tagname>
 
 Show all tab:
 
     git tag
+    git tag -n //show tag annotated message//

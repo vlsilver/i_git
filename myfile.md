@@ -46,6 +46,6 @@ Merge branch rebase currentbranch -> branchname:
 
     git rebase <branch name>
 
-Edit commit:
+Edit message current commit:
 
-    git commit --amend
+    git commit --amend //quit edit message ":wq" to save change, ":q!" not save change//

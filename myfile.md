@@ -50,3 +50,6 @@ Edit message current commit:
 
     git commit --amend //quit edit message ":qw" or ":q!"//
 
+Revert current commit:
+
+    git revert HEAD //add new commit delete current commit//

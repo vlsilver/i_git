@@ -45,3 +45,7 @@ Merge branch branchname -> current branch:
 Merge branch rebase currentbranch -> branchname:
 
     git rebase <branch name>
+
+Edit commit:
+
+    git commit --amend

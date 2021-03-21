@@ -93,6 +93,18 @@ Edit commit via rebase:
     git commit --amend
     git rebase --continue
 
+Stash the changes in a dirty working directory away and clear current branch changes.
+
+    git stash 
+    git stash save
+    git stash apply [commit] //merge but not delete this commit //
+    git stash pop  [commit] //merge and delete this commit//
+    git stash list //show all commits of stash//
+    git stash show [-p] //show changes desciption of commit//
+    git stash branch <branch name> [commit]//create new branch with changes of commit //
+    git stash drop [commit] //delete commit in stash//
+    git stash clear //delete all commit in stash//
+
 Pull:
 
     git pull //get all commit from repository of branch current -> merge it to local //

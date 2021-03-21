@@ -65,6 +65,10 @@ Add tag type "annotated" for current commit:
     git tag -a <tagname>
     git tag -am "<message>" <tagname>
 
+Delete tag:
+
+    git tag -d <tagname>
+
 Show all tab:
 
     git tag

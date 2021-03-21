@@ -41,10 +41,17 @@ Delete branch:
 Merge branch branchname -> current branch:
 
     git merge <branch name>
+    git merge --continue
+    git merge --quit
+    git merge --abort
+
 
 Merge branch rebase currentbranch -> branchname:
 
     git rebase <branch name>
+    git rabase --continue
+    git rebase --quit
+    git merge --abort
 
 Edit message current commit:
 
@@ -62,3 +69,14 @@ Reset(delete) commit:
 
     git reset --hard HEAD~ //reset-delete 1 commit from HEAD//
     git reset --hard HEAD~~ //reset-delete 2 commit from HEAD//
+
+Merge commits to current branch:
+
+    git cherry-pick <commitA> <commitB> ...
+    git cherrt-pick <commitA>...<commitB>
+    git cherry-pick <commitA^...commitB>
+    git cheery-pick <branch name> //merge new commit of branch name to current branch//
+    git cherry-pick --continue
+    git cherry-pick --abort
+    git cherry-pick --quit
+

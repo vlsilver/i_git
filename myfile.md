@@ -93,6 +93,11 @@ Edit commit via rebase:
     git commit --amend
     git rebase --continue
 
+Show changes:
+
+    git diff //show changes not add.//
+    git diff --cahed //show changes had add. but not commit//
+
 Pull:
 
     git pull //get all commit from repository of branch current -> merge it to local //

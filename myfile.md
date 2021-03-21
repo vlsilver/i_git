@@ -80,3 +80,6 @@ Merge commits to current branch:
     git cherry-pick --abort
     git cherry-pick --quit
 
+Meld commits via rabse:
+
+    git rebase -i HEAD~~ //":<key> to quit/save/continue"//

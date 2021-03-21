@@ -53,3 +53,12 @@ Edit message current commit:
 Revert current commit:
 
     git revert HEAD //add new commit delete current commit//
+
+Reset change:
+
+    git reset --hard HEAD
+
+Reset(delete) commit:
+
+    git reset --hard HEAD~ //reset-delete 1 commit from HEAD//
+    git reset --hard HEAD~~ //reset-delete 2 commit from HEAD//

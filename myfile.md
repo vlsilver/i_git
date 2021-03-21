@@ -11,6 +11,7 @@ Iniial git:
 Check change git :
 
     git status
+    git status -s // show file change and type change //
 
 Add change:
 
@@ -21,9 +22,18 @@ Commit:
 
     git commit -m "<message>"
 
+Show all commit:
+
+    git log
+    git log --decorate //show all commits and them tag//
+
 Create branch:
 
     git branch <branch name>
+
+Show all branch:
+
+    git branch
 
 Switch branch:
 
@@ -57,3 +67,12 @@ Fetch all commit of current branch from repositort(create branch FETCH_HEAD hand
 Push commit from local to repository:
 
     git push
+
+
+Add tag for current commit:
+
+    git tag <tag name>
+
+Show all tab:
+
+    git tag

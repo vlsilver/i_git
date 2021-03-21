@@ -45,3 +45,15 @@ Merge branch branchname -> current branch:
 Merge branch rebase currentbranch -> branchname:
 
     git rebase <branch name>
+
+Pull all commit of current branch from repository(merge):
+
+    git pull
+
+Fetch all commit of current branch from repositort(create branch FETCH_HEAD handle, not merge):
+
+    git fetch
+
+Push commit from local to repository:
+
+    git push

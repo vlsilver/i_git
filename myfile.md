@@ -11,7 +11,6 @@ Iniial git:
 Check change git :
 
     git status
-    git status -s // show file change and type change //
 
 Add change:
 
@@ -22,18 +21,9 @@ Commit:
 
     git commit -m "<message>"
 
-Show all commit:
-
-    git log
-    git log --decorate //show all commits and them tag//
-
 Create branch:
 
     git branch <branch name>
-
-Show all branch:
-
-    git branch
 
 Switch branch:
 
@@ -51,8 +41,8 @@ Delete branch:
 Merge branch branchname -> current branch:
 
     git merge <branch name>
-    git merge --squash <branch name> //meld all commits of branch name to once commit -> merge to current branch//
-    git merge --continue
+    git mere --squash <branch name> //meld all commit of branch name to once commit -> merge current branch//
+    git merge --continue 
     git merge --quit
     git merge --abort
 
@@ -62,7 +52,7 @@ Merge branch rebase currentbranch -> branchname:
     git rebase <branch name>
     git rabase --continue
     git rebase --quit
-    git rebase --abort
+    git merge --abort
 
 Edit message current commit:
 
@@ -95,7 +85,7 @@ Meld commits via rebase:
 
     git rebase -i HEAD~~ //":<key> to quit/save/continue"//git
 
-Edit commit bia rebase:
+Edit commit via rebase:
 
     git rebase -i HEAD~~
     -> change file.
@@ -103,14 +93,14 @@ Edit commit bia rebase:
     git commit --amend
     git rebase --continue
 
-Pull all commit of current branch from repository(merge):
+Pull:
 
-    git pull
+    git pull //get all commit from repository of branch current -> merge it to local //
 
-Fetch all commit of current branch from repositort(create branch FETCH_HEAD handle, not merge):
+Fetch:
 
-    git fetch
+    git fetch //get all commit from repository of branch current to local//
 
-Push commit from local to repository:
+Push:
 
-    git push
+    git push //push commit fron local to repository//

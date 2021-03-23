@@ -17,6 +17,16 @@ Add change:
     git add <file name> 
     git add .
 
+Restore file added:
+
+    git restore --staged <file name>
+    git restore --staged .
+
+Restore file change:
+
+    git restore <file name>
+    git restore .
+
 Commit:
 
     git commit -m "<message>"
@@ -41,7 +51,7 @@ Delete branch:
 Merge branch branchname -> current branch:
 
     git merge <branch name>
-    git mere --squash <branch name> //meld all commit of branch name to once commit -> merge current branch//
+    git merge --squash <branch name> //meld all commit of branch name to once commit -> merge current branch//
     git merge --continue 
     git merge --quit
     git merge --abort
@@ -52,7 +62,7 @@ Merge branch rebase currentbranch -> branchname:
     git rebase <branch name>
     git rabase --continue
     git rebase --quit
-    git merge --abort
+    git rebase --abort
 
 Edit message current commit:
 

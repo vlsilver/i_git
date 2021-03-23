@@ -33,6 +33,8 @@ Commit:
 
 Create branch:
 
+    git branch 
+    git branch -a //show all branch (clone repostitory)//
     git branch <branch name>
 
 Switch branch:
